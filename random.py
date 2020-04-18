@@ -22,7 +22,7 @@ s = int(input('Valor de la semilla: '))
 # Append the seed
 nums.append(s)
 
-for i in range(1,101):
+for i in range(1,41):
     res = generateRandom(nums, i, m, a, c, s)
     nums.append(res)
     print(str(i)+ ' -> \033[32m' + str(res) + '\033[33m')
